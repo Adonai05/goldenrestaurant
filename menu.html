@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <header> <h1>Golden</h1>
+            <ul class="menulist">
+                <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="booktable.html">Book table</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="bars" onclick="bars()">
+                <button class="fbutton"></button><button class="mbutton"></button><button class="lbutton"></button>
+            </div>
+           </header>
+    <div id="con1">
+        <h1>OUR SPECIAL MENU</h1>
+        <div class="button">
+            <button onclick="filterImg('ALL')">ALL</button>
+            <button onclick="filterImg('BURGERS')">BURGERS</button>
+            <button onclick="filterImg('PIZZAS')">PIZZAS</button>
+            <button onclick="filterImg('PASTA')">PASTA</button>
+        </div>
+        <div class="foods">
+            <div class="food BURGERS"><img src="Hamburger.avif" alt="Hamburger" width="100%" height="80%"><p>Hamburger</p><p>12$</p></div>
+            <div class="food PIZZAS"><img src="chicken pizza.jpg" alt="chicken pizza" width="100%" height="80%"><p>Chicken pizza</p> <p>12$</p></div>
+            <div class="food PASTA"><img src="Lasagna-Pasta.jpg" alt="Lasagna-Pasta" width="100%" height="80%"><p>Lasagna Pasta</p> <p>15$</p></div>
+            <div class="food PIZZAS"><img src="veggie pizza.jpg" alt="veggie pizza" width="100%" height="80%"><p>Veggie pizza</p> <p>10$</p></div>
+            <div class="food BURGERS"><img src="cheeseburger.avif" alt="cheese burger" width="100%" height="80%"><p>Cheese burger</p> <p>10$</p></div>
+            <div class="food PASTA"><img src="greek-orzo-pasta.jpg" alt="greek-orzo-pasta" width="100%" height="80%"><p>Greek orzo pasta</p> <p>15$</p></div>
+            <div class="food PIZZAS"><img src="meat pizza.jpg" alt="meat pizza" width="100%" height="80%"><p>Meat pizza</p> <p>16$</p></div>
+            <div class="food BURGERS"><img src="Turkey_burger.avif" alt="Turkey_burger" width="100%" height="80%"><p>Turkey burger</p> <p>12$</p></div>
+            <div class="food PASTA"><img src="Linguine_pasta.webp" alt="Linguine_pasta" width="100%" height="80%"><p>Linguine pasta</p> <p>12$</p></div>
+            <div class="food PIZZAS"><img src="Pizza-Buffalo.jpg" alt="Pizza-Buffalo" width="100%" height="80%"><p>Buffalo Pizza</p> <p>15$</p></div>
+        </div>
+       </div>
+       <script src="script.js"></script>
+</body>
+</html>
